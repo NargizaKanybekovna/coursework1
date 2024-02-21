@@ -76,7 +76,7 @@ body {
 	line-height: 19px;
 	color: #242424;
 	width: 100%;
-	font-family: 'Martel' 'Montserrat''Open-Sans' arial sans-serif;
+	font-family: 'Martel' 'Montserrat' 'Open-Sans' arial sans-serif;
 }
 
 .container {
@@ -157,7 +157,7 @@ header .container {
 }
 
 header {
-	background: url(../img/background.png) no-repeat ;
+	background: url(../img/background.png) no-repeat;
 	max-width: 1440px;
 	margin: 0 auto;
 }
@@ -188,13 +188,9 @@ header {
 
 
 
-.home {
+.home {}
 
-}
-
-.home_in {
-
-}
+.home_in {}
 
 .home_content {
 	max-width: 660px;
@@ -251,13 +247,29 @@ header {
 	gap: 40px;
 	background: #FFFFFF;
 	position: relative;
+	
+}
+
+.btn_blue {
+	width: 248px;
+	height: 58px;
+	padding: 15px, 40px, 15px, 40px;
+	border-radius: 5px;
+	gap: 10px;
+	background-color: #295C7A;
+	color: #FFFF;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
 }
 
 .advice_content {
 	width: 864px;
 	height: 100px;
 	gap: 10px;
-	background:lightpink ;
+	background: lightpink;
 
 }
 
@@ -271,14 +283,18 @@ header {
 	height: 385px;
 	border-radius: 10px;
 	justify-content: space-between;
-	
+
 
 }
 
 .card_img {
 	width: 72px;
 	height: 72px;
-	
+
 	border-radius: 200px;
 	background-color: #f8a8e3;
 }
+
+
+
+
