@@ -247,7 +247,19 @@ header {
 	gap: 40px;
 	background: #FFFFFF;
 	position: relative;
-	
+
+}
+
+.input {
+	display: block;
+	border: 1px solid #BDBDBD;
+	width: 245px;
+	height: 50px;
+	padding: 11px, 150px, 11px, 21px;
+	border-radius: 5px;
+	border: 1px;
+	gap: 47px;
+	background: #F9F9F9
 }
 
 .btn_blue {
@@ -294,7 +306,3 @@ header {
 	border-radius: 200px;
 	background-color: #f8a8e3;
 }
-
-
-
-
