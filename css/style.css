@@ -373,20 +373,35 @@ header {
 	background: #252B42;
 }
 
-.comment_cards {}
+.comment_card {
+	width: calc((100% - 35px) /3);
+	background: #DEDEDE;
+
+
+}
 
 .comment_card_icons {
-	width: calc((100% - 19px)/3);
-	height: 244px;
+	width: 18px;
+	height: 18px;
 	top: 2px;
 	left: 2px;
 	background: url(../img/star.svg) no-repeat;
 
 }
-.card_ic{
-	margin: 25px 30px;
-	
+
+
+
+
+.card_ic_disabled {
+	background: url(../img/disabledstar.svg) no-repeat;
 }
+
+.card_ic {
+	margin: 25px 30px;
+
+
+}
+
 .comment_content {
 	width: 153px;
 }
@@ -395,14 +410,11 @@ header {
 	width: 50px;
 	height: 50px;
 	border: 1px;
-
-
-
 }
 
-.sec_tit {
-	width: 346px;
-	height: 50px;
+.comments_tit {
+
+
 	font-family: 'Martel';
 	font-size: 40px;
 	font-weight: 700;
@@ -410,10 +422,11 @@ header {
 	letter-spacing: 0.20000000298023224px;
 	color: #FFFFFF;
 	margin-bottom: 27px;
+	text-align: center;
 
 }
 
-.comment_txt {
+.comments_txt {
 	width: 431px;
 	font-family: 'Open Sans';
 	font-size: 14px;
@@ -423,6 +436,7 @@ header {
 	margin-top: 27px;
 	color: #FFFFFF;
 	margin-bottom: 80px;
+	text-align: center;
 }
 
 .card_txt {
@@ -444,8 +458,120 @@ header {
 	line-height: 24px;
 	letter-spacing: 0.20000000298023224px;
 	color: #D0A144;
+}
+
+.attorneys {
+	background: #252B42;
+}
+
+.attorneys_txt {
+	width: 431px;
+	height: 40px;
+
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.attorneys_img {
+	background: #FFFFFF;
+	width: 328px;
+	height: 373px;
+}
+
+.attorneys_tit {
+	width: 401px;
+	height: 50px;
+	font-family: 'Martel';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.attorney_tit {
+	width: 128px;
+	font-family: 'Martel';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.10000000149011612px;
+
+	color: #252B42;
+	margin: 0 auto;
+}
+
+.attorneys_sec_txt {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.20000000298023224px;
+	color: #737373;
+	text-align: center;
+}
 
 
 
+.attorneys_ic {
+	background: url(../img/icons/fb.svg) no-repeat;
+	background-size: cover;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	padding: 1px, 2px, 2px, 1px;
 
+}
+
+.attorneys_icons {
+	width: 92px;
+	height: 24px;
+	gap: 10px;
+	margin: 0 auto;
+
+}
+
+.attorneys_ic_inst {
+	background-image: url(../img/icons/inst.svg);
+}
+
+.attorneys_ic_tw {
+	background-image: url(../img/icons/tw-sm-2.svg);
+}
+
+.contact {
+	background: url(../img/contactbg.jpg) no-repeat;
+	background-size: cover;
+	height: 672px;
+}
+
+.contact_tit {
+	width: 89px;
+	height: 24px;
+	top: 40px;
+	left: 3px;
+	color: #FFFFFF;
+	font-family: 'Martel';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.10000000149011612px;
+}
+
+.contact_txt {
+	width: 458px;
+	height: 50px;
+	top: 64px;
+	font-family: 'Martel';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0.20000000298023224px;
+	color: #FFFFFF;
 }
