@@ -575,3 +575,17 @@ header {
 	letter-spacing: 0.20000000298023224px;
 	color: #FFFFFF;
 }
+
+.form_contact {
+	width: 597px;
+	height: 50px;
+	gap: 20px;
+
+}
+
+.contact_form_input {
+	width: 597px;
+	height: 50px;
+	gap: 20px;
+
+}
