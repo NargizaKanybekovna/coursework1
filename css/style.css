@@ -316,7 +316,7 @@ header {
 	width: calc((100% - 31px)/3);
 
 	height: 385px;
-	background:#FFFF;
+	background: #FFFF;
 
 }
 
@@ -380,26 +380,27 @@ header {
 
 }
 
-.comment_card_icons {
-	width: 18px;
-	height: 18px;
-	top: 2px;
-	left: 2px;
+.card_ic {
+	width: 22.01px;
+	height: 22.01px;
+	top: -0.01px;
+	padding: 1.83px, 1.83px, 1.83px, 1.83px;
 	background: url(../img/star.svg) no-repeat;
-
+	display: block;
+	
 }
 
 
 
 
 .card_ic_disabled {
+	width: 22.01px;
+	height: 22.01px;
+	top: -0.01px;
+	left: 88.06px;
+	padding: 1.83px, 1.83px, 1.83px, 1.84px;
 	background: url(../img/disabledstar.svg) no-repeat;
-}
-
-.card_ic {
-	margin: 25px 30px;
-
-
+	display: block;
 }
 
 .comment_content {
@@ -576,25 +577,34 @@ header {
 	color: #FFFFFF;
 }
 
-.form_in {
-	width: 597px;
-	height: 50px;
+.form_contact {
+	width: 602px;
+	height: 280px;
 	gap: 20px;
 
 }
-.form_input{
-	width: 48%;
-	height: 50px;
-	left: 0.5px;
-	margin-bottom: 10px;
-}
 
-.contact.form_input_big {
-	width: 598px;
-	height: 140px;
-	padding: 16px, 510px, 100px, 26px;
+.form_input-cont {
+	width: 48%;
+
+	display: block;
+	border: 1px solid #BDBDBD;
+	height: 50px;
+	padding: 11px, 150px, 11px, 21px;
 	border-radius: 5px;
 	border: 1px;
 	gap: 47px;
+	background: #F9F9F9;
+
+
+
+
+}
+
+.form_input-cont_big {
+	width: 598px;
+	height: 148px;
+	border-radius: 5px;
+	border: 1px;
 
 }
