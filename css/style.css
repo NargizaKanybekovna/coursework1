@@ -417,8 +417,6 @@ header {
 }
 
 .comments_tit {
-
-
 	font-family: 'Martel';
 	font-size: 40px;
 	font-weight: 700;
@@ -429,9 +427,7 @@ header {
 	text-align: center;
 
 }
-
 .comments_txt {
-	width: 431px;
 	font-family: 'Open Sans';
 	font-size: 14px;
 	font-weight: 400;
