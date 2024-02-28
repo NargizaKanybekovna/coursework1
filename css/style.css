@@ -121,7 +121,6 @@ section {
 }
 
 .btn {
-
 	border-radius: 10px;
 	font-weight: 800;
 	font-size: 16px;
@@ -187,8 +186,6 @@ header {
 	margin-top: 34px;
 }
 
-
-
 .home {}
 
 .home_in {}
@@ -238,7 +235,6 @@ header {
 	color: #FFFF;
 }
 
-
 .form_in {
 	max-width: 328px;
 	margin: 0 auto;
@@ -247,7 +243,6 @@ header {
 	gap: 40px;
 	background: #FFFFFF;
 	position: relative;
-
 }
 
 .form_in_tit {
@@ -302,7 +297,6 @@ header {
 }
 
 .advice_txt {
-
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 20px;
@@ -320,11 +314,8 @@ header {
 }
 
 .card {
-
 	border-radius: 10px;
 	justify-content: space-between;
-
-
 }
 
 .advice.card_img {
@@ -334,8 +325,6 @@ header {
 .card_img {
 	background: #F6E4D7 url(../img/icons/scales.svg) no-repeat;
 	padding-left: 200px;
-
-
 }
 
 .about {
@@ -343,7 +332,7 @@ header {
 }
 
 .about_tit {
-	font-family: Martel;
+	font-family: 'Martel';
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 50px;
@@ -351,11 +340,9 @@ header {
 	text-align: center;
 	color: #FFFFFF;
 	margin-bottom: 25px;
-
 }
 
 .about_txt {
-
 	font-family: 'Open Sans';
 	font-size: 14px;
 	font-weight: 400;
@@ -573,8 +560,6 @@ header {
 .form_contact {
 	width: 602px;
 	height: 280px;
-
-
 }
 
 .form_input-cont {
@@ -638,7 +623,6 @@ header {
 }
 
 .consultation_txt {
-	
 	height: 20px;
 	font-family: 'Open Sans';
 	font-size: 14px;
@@ -660,5 +644,4 @@ header {
 	text-align: center;
 	transition: 0.3s;
 	border-radius: 5px;
-
 }
