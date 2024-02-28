@@ -497,6 +497,7 @@ header {
 	color: #737373;
 	text-align: center;
 }
+
 .attorneys_icons {
 	width: 92px;
 	height: 24px;
@@ -664,19 +665,29 @@ header {
 
 }
 
-.litigade_ic_fb{
-	background: url(../img/icons/fbook.svg);
-	display:i block;
-	background-size: cover;
-}
-.litigade_ic_inst{
-	background: url(../img/icons/ins.svg);
-}
-.litigade_ic_tw{
-	background: url(../img/icons/tw.svg);
+.litigade_ic {
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
 
 }
-.litigade_ic_youtube{
-	background: url(../img/icons/youtube.svg);
+
+.litigade_ic_fb {
+	background: url(../img/icons/fbook.svg) no-repeat ;
+	display: block;
+
+}
+
+.litigade_ic_inst {
+	background: url(../img/icons/ins.svg) no-repeat;
+}
+
+.litigade_ic_tw {
+	background: url(../img/icons/tw.svg) no-repeat;
+
+}
+
+.litigade_ic_youtube {
+	background: url(../img/icons/youtube.svg) no-repeat;
 
 }
