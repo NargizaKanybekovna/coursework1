@@ -76,7 +76,7 @@ body {
 	line-height: 19px;
 	color: #242424;
 	width: 100%;
-	font-family: 'Martel' 'Montserrat' 'Open-Sans' arial sans-serif;
+	font-family: 'Martel','Montserrat','Open-Sans', arial sans-serif;
 }
 
 .container {
@@ -469,6 +469,7 @@ header {
 	color: #FFFFFF;
 	margin-bottom: 15px;
 }
+
 .attorneys_txt {
 	height: 40px;
 	font-family: 'Open Sans';
@@ -572,7 +573,7 @@ header {
 .form_contact {
 	width: 602px;
 	height: 280px;
-	gap: 20px;
+
 
 }
 
@@ -594,5 +595,70 @@ header {
 	height: 148px;
 	border-radius: 5px;
 	border: 1px;
+}
+
+.btn_contact {
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #D0A144;
+	height: 85px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 25%;
+	padding: 14px 0;
+	transition: 0.3s;
+	border-radius: 5px;
+	color: #FFFF;
+}
+
+.consultation {
+	height: 142px;
+	background: #FAFAFA;
+}
+
+.consultation_content {
+	width: 454px;
+}
+
+.consultation_tit {
+	height: 32px;
+	font-family: 'Martel';
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: 0.10000000149011612px;
+	text-align: left;
+	color: #252B42;
+	margin-bottom: 20px;
+}
+
+.consultation_txt {
+	
+	height: 20px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+	color: #737373;
+}
+
+.btn_consultation {
+	width: 158px;
+	height: 58px;
+	padding: 15px, 40px, 15px, 40px;
+	border-radius: 5px;
+	gap: 10px;
+	background: #D0A144;
+	color:#FFFFFF;
+	text-align: center;
+	transition: 0.3s;
+	border-radius: 5px;
 
 }
